@@ -3,5 +3,6 @@
  !/pages/
  !/tests/
  !requirements.txt
+ /.idea/
    
 
