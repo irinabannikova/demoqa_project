@@ -16,8 +16,3 @@ def test_link_send_an_api_no_content(page):
     page_links.go_to_task_links()
     page_links.check_get_request_after_click('#no-content', 'https://demoqa.com/no-content')
 
-
-
-
-
-    page.wait_for_timeout(8000)

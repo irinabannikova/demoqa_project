@@ -104,5 +104,3 @@ def test_add_many_records(page):
     web_table.review_next_button()
 
 
-    page.wait_for_timeout(8000)
-
