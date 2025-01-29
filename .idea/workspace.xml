@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44ab54f8-aa4a-4013-ad0a-f9d197898b6a" name="Changes" comment="убрать ожидания из тестов" />
+    <list default="true" id="44ab54f8-aa4a-4013-ad0a-f9d197898b6a" name="Changes" comment="Добавления теста на форму студентов">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/form_page_practice_form.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/form_page_practice_form.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,6 +50,22 @@
     "Python tests.Python tests for test_open_page.test_add_todo.executor": "Run",
     "Python tests.Python tests for test_open_page.test_open_page.executor": "Run",
     "Python tests.Python tests in tests.executor": "Run",
+    "Python tests.pytest for test_alerts_frame_browser_windows.test_dynamic_property.executor": "Run",
+    "Python tests.pytest for test_alerts_frame_browser_windows.test_new_tab.executor": "Run",
+    "Python tests.pytest for test_alerts_frame_browser_windows.test_new_window.executor": "Run",
+    "Python tests.pytest for test_alerts_frame_browser_windows.test_new_window_message.executor": "Run",
+    "Python tests.pytest for test_alerts_frames.test_frames.executor": "Run",
+    "Python tests.pytest for test_alerts_frames.test_nested_frames.executor": "Run",
+    "Python tests.pytest for test_alerts_frames.test_small_frames.executor": "Run",
+    "Python tests.pytest for test_alerts_modal.test_check_small_modal.executor": "Debug",
+    "Python tests.pytest for test_alerts_page_alerts.test_click_button_see_alert.executor": "Run",
+    "Python tests.pytest for test_alerts_page_alerts.test_click_button_see_alert_after_5.executor": "Run",
+    "Python tests.pytest for test_alerts_page_alerts.test_click_button_see_alert_after_5_sec.executor": "Run",
+    "Python tests.pytest for test_alerts_page_alerts.test_click_button_with_option.executor": "Run",
+    "Python tests.pytest for test_alerts_page_alerts.test_click_button_with_option_accept.executor": "Run",
+    "Python tests.pytest for test_alerts_page_alerts.test_click_button_with_option_dismiss.executor": "Run",
+    "Python tests.pytest for test_alerts_page_alerts.test_click_button_with_prompt_accept.executor": "Run",
+    "Python tests.pytest for test_alerts_page_alerts.test_click_button_with_prompt_dismiss.executor": "Run",
     "Python tests.pytest for test_element_page_dynamic_properties.test_dynamic_property.executor": "Run",
     "Python tests.pytest for test_elements_broken_link_image.test_broken_link.executor": "Run",
     "Python tests.pytest for test_elements_broken_link_image.test_check_broken_link.executor": "Run",
@@ -97,7 +116,7 @@
     "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
-  <component name="RunManager" selected="Python tests.pytest for test_form_practice_form.test_date_of_birth">
+  <component name="RunManager" selected="Python tests.pytest for test_alerts_modal.test_check_small_modal">
     <configuration name="tests" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="demoqa_progect" />
       <option name="ENV_FILES" value="$PROJECT_DIR$/venv" />
@@ -156,7 +175,61 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_element_page_dynamic_properties.test_dynamic_property" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_alerts_frames.test_frames" type="tests" factoryName="py.test" nameIsGenerated="true">
+      <module name="demoqa_progect" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </EXTENSION>
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;--headed&quot;" />
+      <option name="_new_target" value="&quot;test_alerts_frames.test_frames&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_alerts_frames.test_nested_frames" type="tests" factoryName="py.test" nameIsGenerated="true">
+      <module name="demoqa_progect" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </EXTENSION>
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;--headed&quot;" />
+      <option name="_new_target" value="&quot;test_alerts_frames.test_nested_frames&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_alerts_frames.test_small_frames" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="demoqa_progect" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -169,7 +242,203 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_element_page_dynamic_properties.test_dynamic_property&quot;" />
+      <option name="_new_target" value="&quot;test_alerts_frames.test_small_frames&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_alerts_modal.test_check_small_modal" type="tests" factoryName="py.test" nameIsGenerated="true">
+      <module name="demoqa_progect" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </EXTENSION>
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;--headed&quot;" />
+      <option name="_new_target" value="&quot;test_alerts_modal.test_check_small_modal&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_alerts_page_alerts.test_click_button_see_alert" type="tests" factoryName="py.test" nameIsGenerated="true">
+      <module name="demoqa_progect" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </EXTENSION>
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;--headed&quot;" />
+      <option name="_new_target" value="&quot;test_alerts_page_alerts.test_click_button_see_alert&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_alerts_page_alerts.test_click_button_see_alert_after_5" type="tests" factoryName="py.test" nameIsGenerated="true">
+      <module name="demoqa_progect" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </EXTENSION>
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;--headed&quot;" />
+      <option name="_new_target" value="&quot;test_alerts_page_alerts.test_click_button_see_alert_after_5&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_alerts_page_alerts.test_click_button_with_option" type="tests" factoryName="py.test" nameIsGenerated="true">
+      <module name="demoqa_progect" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </EXTENSION>
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;--headed&quot;" />
+      <option name="_new_target" value="&quot;test_alerts_page_alerts.test_click_button_with_option&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_alerts_page_alerts.test_click_button_with_option_accept" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="demoqa_progect" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_alerts_page_alerts.test_click_button_with_option_accept&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_alerts_page_alerts.test_click_button_with_option_dismiss" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="demoqa_progect" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_alerts_page_alerts.test_click_button_with_option_dismiss&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_alerts_page_alerts.test_click_button_with_prompt_accept" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="demoqa_progect" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </EXTENSION>
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;--headed&quot;" />
+      <option name="_new_target" value="&quot;test_alerts_page_alerts.test_click_button_with_prompt_accept&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_alerts_page_alerts.test_click_button_with_prompt_dismiss" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="demoqa_progect" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </EXTENSION>
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;--headed&quot;" />
+      <option name="_new_target" value="&quot;test_alerts_page_alerts.test_click_button_with_prompt_dismiss&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -362,104 +631,6 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_form_practice_form.test_add_student_invalid" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="demoqa_progect" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="net.ashald.envfile">
-        <option name="IS_ENABLED" value="false" />
-        <option name="IS_SUBST" value="false" />
-        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
-        <option name="IS_IGNORE_MISSING_FILES" value="false" />
-        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
-        <ENTRIES>
-          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
-        </ENTRIES>
-      </EXTENSION>
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;--headed&quot;" />
-      <option name="_new_target" value="&quot;test_form_practice_form.test_add_student_invalid&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_form_practice_form.test_add_student_required_fields" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="demoqa_progect" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_form_practice_form.test_add_student_required_fields&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_form_practice_form.test_add_student_valid" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="demoqa_progect" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="net.ashald.envfile">
-        <option name="IS_ENABLED" value="false" />
-        <option name="IS_SUBST" value="false" />
-        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
-        <option name="IS_IGNORE_MISSING_FILES" value="false" />
-        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
-        <ENTRIES>
-          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
-        </ENTRIES>
-      </EXTENSION>
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;--headed&quot;" />
-      <option name="_new_target" value="&quot;test_form_practice_form.test_add_student_valid&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_form_practice_form.test_add_valid_student_reg_form_with" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="demoqa_progect" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="net.ashald.envfile">
-        <option name="IS_ENABLED" value="false" />
-        <option name="IS_SUBST" value="false" />
-        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
-        <option name="IS_IGNORE_MISSING_FILES" value="false" />
-        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
-        <ENTRIES>
-          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
-        </ENTRIES>
-      </EXTENSION>
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;--headed&quot;" />
-      <option name="_new_target" value="&quot;test_form_practice_form.test_add_valid_student_reg_form_with&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="pytest for test_form_practice_form.test_date_of_birth" type="tests" factoryName="py.test" nameIsGenerated="true">
       <module name="demoqa_progect" />
       <option name="ENV_FILES" value="" />
@@ -514,10 +685,96 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest for tests.test_alerts_browser_windows" type="tests" factoryName="py.test" nameIsGenerated="true">
+      <module name="demoqa_progect" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </EXTENSION>
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;--headed&quot;" />
+      <option name="_new_target" value="&quot;tests.test_alerts_browser_windows&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for tests.test_alerts_browser_windows.test_new_window" type="tests" factoryName="py.test" nameIsGenerated="true">
+      <module name="demoqa_progect" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </EXTENSION>
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;--headed&quot;" />
+      <option name="_new_target" value="&quot;tests.test_alerts_browser_windows.test_new_window&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for tests.test_alerts_browser_windows.test_new_window_message" type="tests" factoryName="py.test" nameIsGenerated="true">
+      <module name="demoqa_progect" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </EXTENSION>
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;--headed&quot;" />
+      <option name="_new_target" value="&quot;tests.test_alerts_browser_windows.test_new_window_message&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.tests" />
-      <item itemvalue="Python tests.pytest for test_form_practice_form.test_date_of_birth" />
-      <item itemvalue="Python tests.pytest for test_form_practice_form.test_student_reg_form" />
+      <item itemvalue="Python tests.pytest for test_alerts_modal.test_check_small_modal" />
+      <item itemvalue="Python tests.pytest for test_alerts_frames.test_frames" />
+      <item itemvalue="Python tests.pytest for test_alerts_frames.test_nested_frames" />
+      <item itemvalue="Python tests.Python tests in tests" />
+      <item itemvalue="Python tests.pytest for test_alerts_page_alerts.test_click_button_see_alert" />
+      <item itemvalue="Python tests.pytest for test_alerts_page_alerts.test_click_button_see_alert_after_5" />
+      <item itemvalue="Python tests.pytest for test_alerts_page_alerts.test_click_button_with_option" />
       <item itemvalue="Python tests.pytest for test_elements_chekbox.test_click_checkbox_documents" />
       <item itemvalue="Python tests.pytest for test_elements_links.test_link_send_an_api" />
       <item itemvalue="Python tests.pytest for test_elements_radiobtn.test_check_radio_btn" />
@@ -525,20 +782,24 @@
       <item itemvalue="Python tests.pytest for test_elements_webtables.test_delete_record" />
       <item itemvalue="Python tests.pytest for test_elements_webtables.test_edit_old_record" />
       <item itemvalue="Python tests.pytest for test_elements_webtables.test_edit_view_row" />
-      <item itemvalue="Python tests.Python tests in tests" />
-      <item itemvalue="Python tests.pytest for test_form_practice_form.test_add_student_invalid" />
-      <item itemvalue="Python tests.pytest for test_form_practice_form.test_add_student_required_fields" />
-      <item itemvalue="Python tests.pytest for test_form_practice_form.test_add_student_valid" />
-      <item itemvalue="Python tests.pytest for test_form_practice_form.test_add_valid_student_reg_form_with" />
-      <item itemvalue="Python tests.pytest for test_element_page_dynamic_properties.test_dynamic_property" />
+      <item itemvalue="Python tests.pytest for test_form_practice_form.test_date_of_birth" />
+      <item itemvalue="Python tests.pytest for test_form_practice_form.test_student_reg_form" />
+      <item itemvalue="Python tests.pytest for tests.test_alerts_browser_windows" />
+      <item itemvalue="Python tests.pytest for tests.test_alerts_browser_windows.test_new_window" />
+      <item itemvalue="Python tests.pytest for tests.test_alerts_browser_windows.test_new_window_message" />
+      <item itemvalue="Python tests.pytest for test_alerts_frames.test_small_frames" />
+      <item itemvalue="Python tests.pytest for test_alerts_page_alerts.test_click_button_with_prompt_accept" />
+      <item itemvalue="Python tests.pytest for test_alerts_page_alerts.test_click_button_with_prompt_dismiss" />
+      <item itemvalue="Python tests.pytest for test_alerts_page_alerts.test_click_button_with_option_accept" />
+      <item itemvalue="Python tests.pytest for test_alerts_page_alerts.test_click_button_with_option_dismiss" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest for test_form_practice_form.test_add_student_required_fields" />
-        <item itemvalue="Python tests.pytest for test_form_practice_form.test_add_student_invalid" />
-        <item itemvalue="Python tests.pytest for test_form_practice_form.test_add_student_valid" />
-        <item itemvalue="Python tests.pytest for test_form_practice_form.test_add_valid_student_reg_form_with" />
-        <item itemvalue="Python tests.pytest for test_element_page_dynamic_properties.test_dynamic_property" />
+        <item itemvalue="Python tests.pytest for test_alerts_frames.test_small_frames" />
+        <item itemvalue="Python tests.pytest for test_alerts_page_alerts.test_click_button_with_prompt_dismiss" />
+        <item itemvalue="Python tests.pytest for test_alerts_page_alerts.test_click_button_with_prompt_accept" />
+        <item itemvalue="Python tests.pytest for test_alerts_page_alerts.test_click_button_with_option_accept" />
+        <item itemvalue="Python tests.pytest for test_alerts_page_alerts.test_click_button_with_option_dismiss" />
       </list>
     </recent_temporary>
   </component>
@@ -566,11 +827,20 @@
       <option name="project" value="LOCAL" />
       <updated>1737104851604</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Добавления теста на форму студентов">
+      <option name="closed" value="true" />
+      <created>1737551761341</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1737551761341</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="убрать ожидания из тестов" />
-    <option name="LAST_COMMIT_MESSAGE" value="убрать ожидания из тестов" />
+    <MESSAGE value="Добавления теста на форму студентов" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавления теста на форму студентов" />
   </component>
 </project>

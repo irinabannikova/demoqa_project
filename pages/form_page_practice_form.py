@@ -1,5 +1,3 @@
-from calendar import month_name
-
 from playwright.sync_api import Page, expect
 
 
