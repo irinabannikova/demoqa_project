@@ -3,9 +3,12 @@ from idlelib.searchengine import get_selection
 from playwright.sync_api import Page, expect
 import time
 
+from pages.basepage import BasePage
 
-class ElementsPageRadiobutton:
+
+class ElementsPageRadiobutton(BasePage):
     def __init__(self, page: Page):
+        super().__init__(page)
         self.page = page
 
     #локаторы
@@ -14,7 +17,7 @@ class ElementsPageRadiobutton:
 
 
     def go_to_task_radio_btn(self):
-        self.page.goto('https://demoqa.com/radio-button')
+        self.goto('https://demoqa.com/radio-button')
 
     def click_yes(self):
         self.page.locator("text=Yes").check()

@@ -1,13 +1,16 @@
 from playwright.sync_api import Page
 import requests
 
+from pages.basepage import BasePage
 
-class ElementsPageLinks:
+
+class ElementsPageLinks(BasePage):
     def __init__(self, page: Page):
+        super().__init__(page)
         self.page = page
 
     def go_to_task_links(self):
-        self.page.goto('https://demoqa.com/links')
+        self.goto('https://demoqa.com/links')
 
     def review_click_home_link(self):
         with self.page.context.expect_page() as tab:

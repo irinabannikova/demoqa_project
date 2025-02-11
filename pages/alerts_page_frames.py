@@ -1,14 +1,16 @@
 from playwright.sync_api import Page, expect
 import re
 
+from pages.basepage import BasePage
 
 
-class AlertsPageFrames:
+class AlertsPageFrames(BasePage):
     def __init__(self, page: Page):
+        super().__init__(page)
         self.page = page
 
     def go_to_frame(self):
-        self.page.goto('https://demoqa.com/frames')
+        self.goto('https://demoqa.com/frames')
 
 
     def check_big_frame(self):

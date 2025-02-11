@@ -3,13 +3,17 @@ from idlelib.searchengine import get_selection
 from playwright.sync_api import Page, expect
 import time
 
-class ElementsPageBrokenLinkImage:
+from pages.basepage import BasePage
+
+
+class ElementsPageBrokenLinkImage(BasePage):
     def __init__(self, page: Page):
+        super().__init__(page)
         self.page = page
         self.toggles_list = ''
 
     def go_to_task_broken_link_img(self):
-        self.page.goto('https://demoqa.com/broken')
+        self.goto('https://demoqa.com/broken')
 
     def check_page_broken_img(self):
         image_elements = self.page.query_selector_all("img")

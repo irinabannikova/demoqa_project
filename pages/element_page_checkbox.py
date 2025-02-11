@@ -3,8 +3,12 @@ from idlelib.searchengine import get_selection
 from playwright.sync_api import Page, expect
 import time
 
-class ElementsPageCheckbox:
+from pages.basepage import BasePage
+
+
+class ElementsPageCheckbox(BasePage):
     def __init__(self, page: Page):
+        super().__init__(page)
         self.page = page
         self.toggles_list = ''
 
@@ -24,7 +28,7 @@ class ElementsPageCheckbox:
     text_massage = "#result > span:nth-child(1)"
     instrument = "#result > span:nth-child({point_num})"
     def go_to_task_checkbox(self):
-        self.page.goto('https://demoqa.com/checkbox')
+        self.goto('https://demoqa.com/checkbox')
 
     def click_expand_all(self):
         self.page.get_by_title('Expand all').click()

@@ -1,15 +1,18 @@
 from playwright.sync_api import Page, expect
 
+from pages.basepage import BasePage
 
-class FormPagePracticeForm:
+
+class FormPagePracticeForm(BasePage):
     def __init__(self, page: Page):
+        super().__init__(page)
         self.page = page
         self.first_name = ''
         self.mobile = ''
         self.last_name = ''
 
     def go_to_practice_form(self):
-        self.page.goto('https://demoqa.com/automation-practice-form')
+        self.goto('https://demoqa.com/automation-practice-form')
 
     def fill_main_info(
             self,

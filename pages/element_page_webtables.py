@@ -3,9 +3,12 @@ from idlelib.searchengine import get_selection
 from playwright.sync_api import Page, expect
 import time
 
+from pages.basepage import BasePage
 
-class ElementsPageWebTables:
+
+class ElementsPageWebTables(BasePage):
     def __init__(self, page: Page):
+        super().__init__(page)
         self.page = page
         self.first_name = ""
         self.last_name = ""
@@ -31,7 +34,7 @@ class ElementsPageWebTables:
 
 
     def go_to_task_web_tabel(self):
-        self.page.goto('https://demoqa.com/webtables')
+        self.goto('https://demoqa.com/webtables')
 
     #add
     def add_new_record(self, first_name, last_name, email, age, salary, departament):
@@ -149,5 +152,8 @@ class ElementsPageWebTables:
         self.page.locator("div.-next > button").click()
         next_page = self.page.locator('span.-pageInfo > div > input[type=number]').input_value()
         assert int(next_page) == int(start_page) + 1
+
+
+        self.page.click('kjk')
 
 

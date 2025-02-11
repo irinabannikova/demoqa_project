@@ -1,13 +1,15 @@
 from playwright.sync_api import Page, expect
 
+from pages.basepage import BasePage
 
 
-class ModalPage:
+class ModalPage(BasePage):
     def __init__(self, page: Page):
+        super().__init__(page)
         self.page = page
 
     def go_to_modal(self):
-        self.page.goto('https://demoqa.com/modal-dialogs')
+        self.goto('https://demoqa.com/modal-dialogs')
 
     def click_small_modal(self):
         small_button = self.page.locator('#showSmallModal')

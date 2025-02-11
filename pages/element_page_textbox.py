@@ -3,9 +3,12 @@ from idlelib.searchengine import get_selection
 from playwright.sync_api import Page, expect
 import time
 
+from pages.basepage import BasePage
 
-class ElementsPageTextbox:
+
+class ElementsPageTextbox(BasePage):
     def __init__(self, page: Page):
+        super().__init__(page)
         self.page = page
         self.full_name = ""
         self.email = ""
@@ -14,7 +17,7 @@ class ElementsPageTextbox:
 
     # text box
     def go_to_task_textbox(self):
-        self.page.goto('https://demoqa.com/text-box')
+        self.goto('https://demoqa.com/text-box')
 
     def submit_form(self, full_name: str, email: str, current_address: str, permanent_address: str):
         self.full_name = full_name
