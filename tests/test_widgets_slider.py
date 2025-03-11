@@ -1,5 +1,6 @@
 from pages.widgets_page_slider_progress_bar import WidgetsPageSliderProgress
 import pytest
+from textblob import TextBlob
 
 @pytest.mark.parametrize('amount',['0','100','67'])
 def test_check_slider(page, amount):
@@ -31,4 +32,11 @@ def test_check_progress_increases_value(page):
 
 
 
-    # page.wait_for_timeout(10000)
+
+
+
+
+
+
+
+    page.wait_for_timeout(10000)

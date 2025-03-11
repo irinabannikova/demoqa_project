@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="44ab54f8-aa4a-4013-ad0a-f9d197898b6a" name="Changes" comment="Добавление тестов">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/widgets_page_slider_progress_bar.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/widgets_page_slider_progress_bar.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_widgets_slider.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_widgets_slider.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,11 +123,16 @@
     "Python tests.pytest for test_widgets_date-picker.test_select_date_add_manual.executor": "Run",
     "Python tests.pytest for test_widgets_date-picker.test_select_date_in_picker.executor": "Run",
     "Python tests.pytest for test_widgets_date_picker.test_add_date_and_time.executor": "Run",
+    "Python tests.pytest for test_widgets_menu.test_check_down_menu.executor": "Run",
     "Python tests.pytest for test_widgets_slider.test.executor": "Run",
     "Python tests.pytest for test_widgets_slider.test_check_progress_bar.executor": "Run",
     "Python tests.pytest for test_widgets_slider.test_check_progress_bar_reset.executor": "Run",
     "Python tests.pytest for test_widgets_slider.test_check_slider.executor": "Run",
     "Python tests.pytest for test_widgets_slider.test_check_stop_at_percentage.executor": "Run",
+    "Python tests.pytest for test_widgets_slider.test_tab.executor": "Run",
+    "Python tests.pytest for test_widgets_tool_tips.test_check_tooltip.executor": "Run",
+    "Python tests.pytest for test_widgets_tool_tips.test_check_tooltip_button.executor": "Run",
+    "Python tests.pytest for test_widgets_tool_tips.test_check_tooltip_link.executor": "Run",
     "Python.main.executor": "Run",
     "Python.tests.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -133,7 +141,7 @@
     "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
-  <component name="RunManager" selected="Python tests.pytest for test_widgets_slider.test">
+  <component name="RunManager" selected="Python tests.pytest for test_widgets_menu.test_check_down_menu">
     <configuration name="tests" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="demoqa_progect" />
       <option name="ENV_FILES" value="$PROJECT_DIR$/venv" />
@@ -705,6 +713,33 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest for test_widgets_menu.test_check_down_menu" type="tests" factoryName="py.test" nameIsGenerated="true">
+      <module name="demoqa_progect" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </EXTENSION>
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;--headed&quot;" />
+      <option name="_new_target" value="&quot;test_widgets_menu.test_check_down_menu&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="pytest for test_widgets_slider.test" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="demoqa_progect" />
       <option name="ENV_FILES" value="" />
@@ -840,6 +875,94 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest for test_widgets_slider.test_tab" type="tests" factoryName="py.test" nameIsGenerated="true">
+      <module name="demoqa_progect" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </EXTENSION>
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;--headed&quot;" />
+      <option name="_new_target" value="&quot;test_widgets_slider.test_tab&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_widgets_tool_tips.test_check_tooltip" type="tests" factoryName="py.test" nameIsGenerated="true">
+      <module name="demoqa_progect" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </EXTENSION>
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;--headed&quot;" />
+      <option name="_new_target" value="&quot;test_widgets_tool_tips.test_check_tooltip&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_widgets_tool_tips.test_check_tooltip_button" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="demoqa_progect" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_widgets_tool_tips.test_check_tooltip_button&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_widgets_tool_tips.test_check_tooltip_link" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="demoqa_progect" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_widgets_tool_tips.test_check_tooltip_link&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="pytest for tests.test_alerts_browser_windows" type="tests" factoryName="py.test" nameIsGenerated="true">
       <module name="demoqa_progect" />
       <option name="ENV_FILES" value="" />
@@ -948,63 +1071,12 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for tests.test_widgets_date_picker.test_select_date_add_manual" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="demoqa_progect" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="net.ashald.envfile">
-        <option name="IS_ENABLED" value="false" />
-        <option name="IS_SUBST" value="false" />
-        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
-        <option name="IS_IGNORE_MISSING_FILES" value="false" />
-        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
-        <ENTRIES>
-          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
-        </ENTRIES>
-      </EXTENSION>
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;--headed&quot;" />
-      <option name="_new_target" value="&quot;tests.test_widgets_date_picker.test_select_date_add_manual&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for tests.test_widgets_date_picker.test_select_date_in_picker" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="demoqa_progect" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="net.ashald.envfile">
-        <option name="IS_ENABLED" value="false" />
-        <option name="IS_SUBST" value="false" />
-        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
-        <option name="IS_IGNORE_MISSING_FILES" value="false" />
-        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
-        <ENTRIES>
-          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
-        </ENTRIES>
-      </EXTENSION>
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;tests.test_widgets_date_picker.test_select_date_in_picker&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Python.tests" />
+      <item itemvalue="Python tests.pytest for test_widgets_menu.test_check_down_menu" />
       <item itemvalue="Python tests.pytest for test_widgets_slider.test_check_stop_at_percentage" />
+      <item itemvalue="Python tests.pytest for test_widgets_slider.test_tab" />
+      <item itemvalue="Python tests.pytest for test_widgets_tool_tips.test_check_tooltip" />
       <item itemvalue="Python tests.pytest for test_widgets_slider.test_check_progress_bar" />
       <item itemvalue="Python tests.pytest for test_widgets_slider.test_check_progress_bar_reset" />
       <item itemvalue="Python tests.pytest for test_widgets_slider.test_check_slider" />
@@ -1030,19 +1102,19 @@
       <item itemvalue="Python tests.pytest for tests.test_alerts_browser_windows" />
       <item itemvalue="Python tests.pytest for tests.test_alerts_browser_windows.test_new_window" />
       <item itemvalue="Python tests.pytest for tests.test_alerts_browser_windows.test_new_window_message" />
+      <item itemvalue="Python tests.pytest for test_widgets_tool_tips.test_check_tooltip_button" />
+      <item itemvalue="Python tests.pytest for test_widgets_tool_tips.test_check_tooltip_link" />
       <item itemvalue="Python tests.pytest for test_widgets_slider.test" />
       <item itemvalue="Python tests.pytest for test_widgets_date_picker.test_add_date_and_time" />
       <item itemvalue="Python tests.pytest for tests.test_widgets_date_picker.test_add_date_and_time" />
-      <item itemvalue="Python tests.pytest for tests.test_widgets_date_picker.test_select_date_add_manual" />
-      <item itemvalue="Python tests.pytest for tests.test_widgets_date_picker.test_select_date_in_picker" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_widgets_tool_tips.test_check_tooltip_link" />
+        <item itemvalue="Python tests.pytest for test_widgets_tool_tips.test_check_tooltip_button" />
         <item itemvalue="Python tests.pytest for test_widgets_slider.test" />
         <item itemvalue="Python tests.pytest for test_widgets_date_picker.test_add_date_and_time" />
         <item itemvalue="Python tests.pytest for tests.test_widgets_date_picker.test_add_date_and_time" />
-        <item itemvalue="Python tests.pytest for tests.test_widgets_date_picker.test_select_date_in_picker" />
-        <item itemvalue="Python tests.pytest for tests.test_widgets_date_picker.test_select_date_add_manual" />
       </list>
     </recent_temporary>
   </component>
@@ -1118,7 +1190,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739352812080</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Добавление тестов">
+      <option name="closed" value="true" />
+      <created>1740469438555</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1740469438555</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

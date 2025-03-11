@@ -32,10 +32,15 @@ class WidgetsPageSliderProgress(BasePage):
     #остановить прогресс бар после конкретной цифры
     def click_progress_stop_after_num(self, num:int):
         while True:
+            #находим цифру соотв. прогрессу
             progress_num = int(self.page.locator('.bg-info').get_attribute('aria-valuenow'))
+            #если цифра прогресса равна нашему значению
             if progress_num == num:
+                #делаем клик
                 self.page.get_by_text('Stop').click()
+                #после этого делаем стоп
                 break
+        #проверка делаем на диапазон цифр так как есть погрешность
         assert progress_num in range(num, num + 3)
 
     def check_max_value_progress(self):
@@ -47,12 +52,17 @@ class WidgetsPageSliderProgress(BasePage):
 
     #проверяем, что значение в прогресс баре именно увеличивается каждый раз
     def check_progress_increases_after_start_click(self):
+        #начальное значение
         previous_value = 0
+        #время ДО.берём текущее время и прибавляем 5 секунд чтобы и течении их проверять прогресс бар
         work_till = time.time() + 5
+        #пока текущее время меньше времени ДО
         while time.time() < work_till:
+            # ищем цифру которая показывается на прогресс баре
             progress_num = int(self.page.locator('.bg-info').get_attribute('aria-valuenow'))
+            #проверяем что цифра больше или равна предыдущему значению
             assert progress_num >= previous_value
-            print(progress_num, previous_value )
+            #записываем в первичное значение новое чтобы сделать новый виток цикла
             previous_value = progress_num
 
 
